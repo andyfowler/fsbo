@@ -1,6 +1,7 @@
 body {
-  background: url(../images/bg.jpg) no-repeat center center fixed;
+  background: url(/images/bg.jpg) no-repeat center center fixed;
   background-size: cover;
+  font-family: "ratio",sans-serif;
   color: #FFF;
   padding-top: 36px;
   font-size: 13px;
@@ -9,12 +10,12 @@ body {
 }
 
 .container {
-  width: 720px;
+  width: 800px;
 }
 
 .banner {
   padding: 0.5em;
-  background-color: #77140B;
+  background-color: #4D4F6C;
   color: #fff;
   font-size: 1.5em;
 }
@@ -27,8 +28,16 @@ body {
 }
 
 #header h1 {
-  color: #77140B;
+  color: #4D4F6C;
+  font-size: 36px;
+  height: 36px;
+  line-height: 36px;
+}
+
+#header h1.escape {
   font-size: 56px;
+  height: 56px;
+  line-height: 56px;
 }
 
 #header h2 {
@@ -49,11 +58,12 @@ body {
 
 #price h1 {
   font-size: 12px;
-  line-height: 60px;
-  top: 19px;
+  line-height: 20px;
+  height: 30px;
+  top: 15px;
   vertical-align: bottom;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: normal;
   color: #999;
 }
 
@@ -73,8 +83,8 @@ body {
 }
 
 #carousel .viewport {
-  width: 710px;
-  height: 470px;
+  width: 800px;
+  height: 600px;
   overflow: hidden;
   position: relative;
   border-radius: 3px;
@@ -120,9 +130,9 @@ body {
 
 #carousel .overview li {
   float: left;
-  width: 710px;
-  height: 470px;
-  position: relative;
+  width: 800px;
+  height: 600px;
+  background-color: black;
 }
 
 #carousel .overview img {
@@ -149,7 +159,7 @@ body {
 
 #carousel .pager li {
   float: left;
-  margin-right: 10px;
+  margin-right: 7px;
 }
 
 #carousel .pagenum {
@@ -159,7 +169,7 @@ body {
   height: 50px;
   box-shadow: 0px 0px 9px rgba(0,0,0,0.5);
   overflow: hidden;
-  background-color: #FFF;
+  background-color: black;
   text-align: center;
 }
 
@@ -174,16 +184,6 @@ body {
 
 section {
   margin-bottom: 1.5em;
-}
-
-#map {
-  text-align: center;
-}
-
-#map img {
-  display: block;
-  border-radius: 3px;
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
 }
 
 dl dt {
